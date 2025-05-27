@@ -1,0 +1,15 @@
+* {
+    margin: 0 auto;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .menu nav  {
+    display: flex;
+    gap: 10px;
+
+}

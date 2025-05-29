@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    .login {
+        display: flex;
+        margin-top: 50px;
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+</style>
 
 <body>
-   <div class="header">
+    <!-- <div class="header">
     <div class="logo">
         <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="">
     </div>
@@ -27,7 +37,22 @@
     <p>
         Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için yanınızdayız.
     </p>
-   </div>
+   </div> -->
+
+    <div class="login">
+        <div class="username">
+            <label for="">Username</label>
+            <input type="text" id="username">
+        </div>
+        <div class="password">
+            <label for="">Password</label>  
+            <input type="password" name="" id="password">
+        </div>
+        <div class="btn">
+            <button type="button" id="submitBtn">Submit</button>
+        </div>
+    </div>
 
 </body>
+<script src="main.js"></script>
 </html>
